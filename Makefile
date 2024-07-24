@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic
 TARGET = php
 
 # Исходные файлы
-SRCS = php.cpp 
+SRCS = main.cpp lexer.cpp parser.cpp interpret.cpp
 
 # Заголовочные файлы
 HEADERS =
